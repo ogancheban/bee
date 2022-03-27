@@ -22,8 +22,8 @@ if (menuLinks.length > 0) {
             window.scrollTo({
                 top: gotoValue,
                 behavior: "smooth"
-            });
-            e.preventDefault();
+            })
+            e.preventDefault()
         }
     }
 }
