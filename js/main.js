@@ -22,8 +22,8 @@ if (menuLinks.length > 0) {
             window.scrollTo({
                 top: gotoValue,
                 behavior: "smooth"
-            })
-            e.preventDefault()
+            });
+            e.preventDefault();
         }
     }
 }
@@ -38,3 +38,26 @@ if (iconMenu) {
         menuBody.classList.toggle('_active');
     });
 }
+
+
+
+//             const gotoValue = gotoBlock.getBoundingClientRect().top + pageYOffset - document.querySelector('header').offsetHeight;
+//             console.log(gotoValue)
+//             if (iconMenu.classList.contains('_active')) {
+//                 document.body.classList.remove('_lock');
+//                 iconMenu.classList.remove('_active');
+//                 menuBody.classList.remove('_active');
+//                         }
+
+//             window.scrollTo({
+//                 top: gotoValue,
+//                 behavior: "smooth"
+//             })
+//             e.preventDefault()
+//         }
+//     }
+// }
+
+
+
+
