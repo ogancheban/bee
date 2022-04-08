@@ -688,7 +688,7 @@ footer input.right-rounded {
     cursor: pointer;
     border: none;
  
-
+top: 0;
     right: 0;
   width: 30%;
 }
